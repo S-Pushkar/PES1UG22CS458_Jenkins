@@ -16,7 +16,6 @@ pipeline {
                 }
                 sh './main/hello_exec'
             }
-            hgukhgteherhehihegihi
         }
         stage('Deploy') {
             steps {
