@@ -6,7 +6,7 @@ pipeline {
                 script {
                     echo "Building PES1UG22CS458-1..."
                 }
-                sh 'g++ main/hello.cpp -o main/hello_exec'
+                sh 'g++ mainhello.cpp -o main/hello_exec'
             }
         }
         stage('Test') {
